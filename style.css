@@ -170,3 +170,12 @@ main p {
 .cta-text {
   color: #e0dddd;
 }
+
+.footer {
+  display: flex;
+  height: 100px;
+  background: #1f2937;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
