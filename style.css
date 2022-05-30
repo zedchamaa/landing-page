@@ -71,7 +71,7 @@ main p {
   font-size: 18px;
 }
 
-.signup {
+.signup, .signup-fancy {
   height: 40px;
   width: 135px;
   background-color: #3882f6;
@@ -82,6 +82,11 @@ main p {
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.signup-fancy {
+  border: 2px solid #ffffff;
+  margin: 0 50px 0 200px;
 }
 
 .info-content{
@@ -141,4 +146,27 @@ main p {
   text-align: right;
   font-weight: bold;
   margin-top: 15px;
+}
+
+.cta-outer-container {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+}
+
+.cta-inner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 100px 150px;
+  padding: 80px;
+  border-radius: 10px;
+}
+.cta-title {
+  color: #ffffff;
+}
+
+.cta-text {
+  color: #e0dddd;
 }
