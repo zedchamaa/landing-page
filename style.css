@@ -10,6 +10,7 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   height: 50px;
   justify-content: space-around;
   align-items: baseline;
@@ -30,6 +31,7 @@ a {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   height: 40vh;
   justify-content: center;
 }
@@ -58,13 +60,13 @@ header, main {
   height: auto;
 }
 
-h1 {
+main h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
 }
 
-p {
+main p {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -80,4 +82,44 @@ p {
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.info-container {
+  height: 50vh;
+}
+
+.info-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 40px;
+  gap: 60px;
+}
+
+.img-txt-container {
+  width: 200px;
+  height: auto;
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.info-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.info-text {
+  color: #4B5563;
+  text-align: center;
 }
